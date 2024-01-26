@@ -1,0 +1,37 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@layer components{
+  .nav-link{
+    @apply p-3 block
+  }
+}
+
+:root {
+  --body-bg: #f3f4f9;
+  --bg-container:#fff;
+  --border-gray : #ddd;
+  --foreground-rgb: 0, 0, 0;
+  --background-start-rgb: 214, 219, 220;
+  --background-end-rgb: 255, 255, 255;
+  --body-font : Montserrat, sans-serif;
+  --border-card: #d3e6f3;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --foreground-rgb: 255, 255, 255;
+    --background-start-rgb: 0, 0, 0;
+    --background-end-rgb: 0, 0, 0;
+  }
+}
+
+body {
+  color: rgb(95, 116, 141);
+  background-color: var(--body-bg);
+  margin: 0px;
+  font-family: var(--body-font);
+  font-weight: 400;
+  font-size: 1rem;
+  line-height: 1.5;
+}
