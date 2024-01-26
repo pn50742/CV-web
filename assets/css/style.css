@@ -358,7 +358,7 @@ section {
 }
 
 .section-title {
-  text-align: center;
+  /* text-align: center; */
   padding-bottom: 30px;
 }
 
@@ -380,7 +380,8 @@ section {
   height: 1px;
   background: #ddd;
   bottom: 1px;
-  left: calc(50% - 60px);
+  /* left: calc(50% - 60px); */
+  left: 0;
 }
 
 .section-title h2::after {
@@ -391,7 +392,8 @@ section {
   height: 3px;
   background: #0563bb;
   bottom: 0;
-  left: calc(50% - 20px);
+  /* left: calc(50% - 20px); */
+  left: 0;
 }
 
 .section-title p {
